@@ -43,25 +43,25 @@
         }
 
         .certificate {
-            display: none;
-            width: 80%;
-            max-width: 600px;
-            margin: auto;
-            margin-top: 20px;
-            border: 10px solid gold;
-            padding: 20px;
-            background: white;
-            color: black;
-            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
-            border-radius: 10px;
-            opacity: 0;
-            transition: opacity 2s ease-in-out;
-        }
-
+    display: none;
+    width: 90%; /* Lebih besar supaya gambar penuh */
+    max-width: 800px; /* Hadkan saiz supaya tak terlalu besar */
+    margin: auto;
+    padding: 20px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 2s ease-in-out;
+}
         .certificate img {
-            width: 100%;
-            border-radius: 5px;
-        }
+    width: 100%; /* Guna 100% supaya penuh dalam kotak */
+    max-width: 100%; /* Pastikan gambar tak lebih besar dari div */
+    height: auto; /* Pastikan nisbah gambar kekal */
+    display: block; /* Elak ruang kosong bawah gambar */
+    margin: auto; /* Pusatkan gambar */
+}
 
     </style>
 </head>
@@ -98,6 +98,9 @@
             });
         }
     </script>
+
+</body>
+</html>
 
 </body>
 </html>
